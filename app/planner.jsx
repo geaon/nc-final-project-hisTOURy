@@ -58,7 +58,7 @@ export default function planner() {
     <View className="flex-1 px-4 py-6 bg-gray-100 dark:bg-gray-800">
       <FlatList
         data={plannerData}
-        keyExtractor={(item, index) => index.toString()}
+        keyExtractor={(index) => index.toString()}
         renderItem={({ item, index }) => (
           <View className="flex-row bg-white dark:bg-gray-700 rounded-lg p-4 mb-4 shadow-sm items-center">
             <TouchableOpacity

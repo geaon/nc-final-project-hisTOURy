@@ -8,12 +8,6 @@ export default function _layout() {
       headerBackTitleVisible: false,
     }}>
       <Stack.Screen name="index" options={{ headerShown: false, title: ""}} />
-      {/* <Stack.Screen
-        name="[spotId]"
-        options={{
-          title: "Spot",
-        }}
-      /> */}
       <Stack.Screen name="add-spot" options={{ title: "Add Spot" }} />
       <Screen
           name="[spotId]"

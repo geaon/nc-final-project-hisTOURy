@@ -1,5 +1,5 @@
 hisTOURy
-
+2
 Technologies: React Native, MapBox, Expo, Supabase (PostGIS extension)
 
 HisTOURy is an app where users can build their own guided tour, exploring historical locations in their local area. Functionality includes:
