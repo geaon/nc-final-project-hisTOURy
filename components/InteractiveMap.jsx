@@ -7,8 +7,8 @@ import Mapbox, {
   SymbolLayer,
   Images,
 } from "@rnmapbox/maps";
-import { Link, useRouter } from "expo-router";
-import { useRef, useState } from "react";
+import { useRouter } from "expo-router";
+import { useState } from "react";
 import {
   Button,
   StyleSheet,
